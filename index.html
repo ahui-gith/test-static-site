@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的静态主页 · GitHub Pages 练习</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="avatar" id="avatar">🚀</div>
+      <h1>你好，我是 <span class="highlight">GitHub Pages</span></h1>
+      <p class="subtitle">这是一个用于练习 GitHub 部署功能的简单静态网站</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://pages.github.com/" target="_blank" rel="noopener">了解 GitHub Pages</a>
+        <button class="btn btn-ghost" id="themeBtn">切换主题 🌙</button>
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3>纯静态</h3>
+        <p>只有 HTML / CSS / JS，无需构建工具，推送到仓库即可访问。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>快速部署</h3>
+        <p>在仓库 Settings → Pages 中选择分支，几分钟后即可通过网址访问。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛠️</div>
+        <h3>自由发挥</h3>
+        <p>随便改这个页面，练习提交、推送、查看线上效果的全流程。</p>
+      </div>
+    </section>
+
+    <section class="counter-box">
+      <h2>互动计数器</h2>
+      <p>点一下试试 👇（练习 JS 交互）</p>
+      <div class="counter">
+        <button id="minusBtn" class="counter-btn">−</button>
+        <span id="count">0</span>
+        <button id="plusBtn" class="counter-btn">＋</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>用 ❤️ 构建 · 部署于 GitHub Pages</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
